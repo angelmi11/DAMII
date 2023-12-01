@@ -43,6 +43,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B8C10B02B1A2B5B0056F27B /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = coredata;
+			sourceTree = "<group>";
+		};
 		B7741ED72B197477003A7278 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +69,7 @@
 		B7741EE22B197477003A7278 /* DAMII */ = {
 			isa = PBXGroup;
 			children = (
+				0B8C10B02B1A2B5B0056F27B /* coredata */,
 				B7741EFE2B197891003A7278 /* controller */,
 				B7741EE32B197477003A7278 /* AppDelegate.swift */,
 				B7741EE52B197477003A7278 /* SceneDelegate.swift */,
