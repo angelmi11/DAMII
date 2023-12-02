@@ -30,6 +30,10 @@
 		B7AE83102B1BA366001F3A97 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE830F2B1BA366001F3A97 /* UserListViewController.swift */; };
 		B7AE83122B1BB4A8001F3A97 /* CreateCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83112B1BB4A8001F3A97 /* CreateCategoryViewController.swift */; };
 		B7AE83142B1BB8B0001F3A97 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83132B1BB8B0001F3A97 /* CategoryListViewController.swift */; };
+		B7AE83162B1BC492001F3A97 /* VendorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83152B1BC492001F3A97 /* VendorListViewController.swift */; };
+		B7AE83182B1BC4D0001F3A97 /* CreateVendorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83172B1BC4D0001F3A97 /* CreateVendorViewController.swift */; };
+		B7AE831A2B1BDD99001F3A97 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83192B1BDD99001F3A97 /* ProductListViewController.swift */; };
+		B7AE831C2B1BDDAE001F3A97 /* CreateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE831B2B1BDDAE001F3A97 /* CreateProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,10 @@
 		B7AE830F2B1BA366001F3A97 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		B7AE83112B1BB4A8001F3A97 /* CreateCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCategoryViewController.swift; sourceTree = "<group>"; };
 		B7AE83132B1BB8B0001F3A97 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		B7AE83152B1BC492001F3A97 /* VendorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorListViewController.swift; sourceTree = "<group>"; };
+		B7AE83172B1BC4D0001F3A97 /* CreateVendorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVendorViewController.swift; sourceTree = "<group>"; };
+		B7AE83192B1BDD99001F3A97 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		B7AE831B2B1BDDAE001F3A97 /* CreateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +134,14 @@
 			children = (
 				B7AE83112B1BB4A8001F3A97 /* CreateCategoryViewController.swift */,
 				B7741EFC2B19774B003A7278 /* RegisterViewController.swift */,
+				B7AE83152B1BC492001F3A97 /* VendorListViewController.swift */,
 				B7AE830F2B1BA366001F3A97 /* UserListViewController.swift */,
 				B7AE830D2B1B9EC9001F3A97 /* CatalogueViewController.swift */,
 				B7741EFA2B197735003A7278 /* LoginViewController.swift */,
 				B7AE83132B1BB8B0001F3A97 /* CategoryListViewController.swift */,
+				B7AE83172B1BC4D0001F3A97 /* CreateVendorViewController.swift */,
+				B7AE83192B1BDD99001F3A97 /* ProductListViewController.swift */,
+				B7AE831B2B1BDDAE001F3A97 /* CreateProductViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -205,11 +217,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7AE83142B1BB8B0001F3A97 /* CategoryListViewController.swift in Sources */,
+				B7AE831A2B1BDD99001F3A97 /* ProductListViewController.swift in Sources */,
 				B7741EE82B197477003A7278 /* ViewController.swift in Sources */,
+				B7AE83182B1BC4D0001F3A97 /* CreateVendorViewController.swift in Sources */,
 				B7741EE42B197477003A7278 /* AppDelegate.swift in Sources */,
 				0BE0C4742B1AEB95005E5F77 /* Product+CoreDataProperties.swift in Sources */,
 				B7AE83072B1B976F001F3A97 /* User+CoreDataClass.swift in Sources */,
 				0BE0C46F2B1AEB94005E5F77 /* Category+CoreDataClass.swift in Sources */,
+				B7AE831C2B1BDDAE001F3A97 /* CreateProductViewController.swift in Sources */,
 				B7AE83102B1BA366001F3A97 /* UserListViewController.swift in Sources */,
 				B7AE830E2B1B9EC9001F3A97 /* CatalogueViewController.swift in Sources */,
 				B7AE83122B1BB4A8001F3A97 /* CreateCategoryViewController.swift in Sources */,
@@ -219,6 +234,7 @@
 				B7AE830B2B1B9795001F3A97 /* BranchOffice+CoreDataClass.swift in Sources */,
 				0BE0C4732B1AEB95005E5F77 /* Product+CoreDataClass.swift in Sources */,
 				B7741EFB2B197735003A7278 /* LoginViewController.swift in Sources */,
+				B7AE83162B1BC492001F3A97 /* VendorListViewController.swift in Sources */,
 				0BE0C4762B1AEB95005E5F77 /* Vendor+CoreDataProperties.swift in Sources */,
 				B7AE83082B1B976F001F3A97 /* User+CoreDataProperties.swift in Sources */,
 				B7741EE62B197477003A7278 /* SceneDelegate.swift in Sources */,
