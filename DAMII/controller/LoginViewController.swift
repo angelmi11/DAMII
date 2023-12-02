@@ -30,6 +30,7 @@ class LoginViewController: UIViewController {
             if let user = fetchUser(email: email, password: password) {
                 print("Login successful. Welcome, \(user.name ?? "User")!")
                 // Aquí puedes navegar a la próxima pantalla o realizar otras acciones después del inicio de sesión exitoso.
+                navigateToCatalogueViewController()
             } else {
                 print("Invalid email or password. Please try again.")
                 // Puedes mostrar un mensaje de error al usuario.
@@ -49,4 +50,10 @@ class LoginViewController: UIViewController {
             return nil
         }
     }
+    
+    func navigateToCatalogueViewController() {
+            if let catalogueVC = storyboard?.instantiateViewController(withIdentifier: "catalogue") as? CatalogueViewController {
+                navigationController?.pushViewController(catalogueVC, animated: true)
+            }
+        }
 }

@@ -1,13 +1,18 @@
+//
+//  CreateCategoryViewController.swift
+//  DAMII
+//
+//  Created by DAMII on 2/12/23.
+//
+
 import UIKit
 import CoreData
 
-class RegisterViewController: UIViewController {
+class CreateCategoryViewController: UIViewController {
 
+    @IBOutlet weak var descrip: UITextField!
     @IBOutlet weak var name: UITextField!
-    @IBOutlet weak var lastName: UITextField!
-    @IBOutlet weak var email: UITextField!
-    @IBOutlet weak var password: UITextField!
-
+    
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "DAMII")
         container.loadPersistentStores { _, error in
@@ -21,29 +26,30 @@ class RegisterViewController: UIViewController {
     lazy var managedContext: NSManagedObjectContext = {
         return persistentContainer.viewContext
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
-    func createUser() {
-        let user = User(context: managedContext)
-        user.name = name.text
-        user.lastName = lastName.text
-        user.email = email.text
-        user.password = password.text
+    
+    
+    func createCategory() {
+        let category = Category(context: managedContext)
+        category.name = name.text
+        category.descrip = descrip.text
 
         do {
             try managedContext.save()
-            print("User created successfully.")
+            print("Category created successfully.")
         } catch let error as NSError {
             print("Could not save. \(error), \(error.userInfo)")
         }
     }
 
-
-    @IBAction func btnRegister(_ sender: Any) {
-        createUser()
+    @IBAction func btnCategory(_ sender: Any) {
+        createCategory()
     }
+   
+
 }

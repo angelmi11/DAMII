@@ -26,6 +26,10 @@
 		B7AE83082B1B976F001F3A97 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83062B1B976F001F3A97 /* User+CoreDataProperties.swift */; };
 		B7AE830B2B1B9795001F3A97 /* BranchOffice+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83092B1B9795001F3A97 /* BranchOffice+CoreDataClass.swift */; };
 		B7AE830C2B1B9795001F3A97 /* BranchOffice+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE830A2B1B9795001F3A97 /* BranchOffice+CoreDataProperties.swift */; };
+		B7AE830E2B1B9EC9001F3A97 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE830D2B1B9EC9001F3A97 /* CatalogueViewController.swift */; };
+		B7AE83102B1BA366001F3A97 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE830F2B1BA366001F3A97 /* UserListViewController.swift */; };
+		B7AE83122B1BB4A8001F3A97 /* CreateCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83112B1BB4A8001F3A97 /* CreateCategoryViewController.swift */; };
+		B7AE83142B1BB8B0001F3A97 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83132B1BB8B0001F3A97 /* CategoryListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,10 @@
 		B7AE83062B1B976F001F3A97 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B7AE83092B1B9795001F3A97 /* BranchOffice+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BranchOffice+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B7AE830A2B1B9795001F3A97 /* BranchOffice+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BranchOffice+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B7AE830D2B1B9EC9001F3A97 /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
+		B7AE830F2B1BA366001F3A97 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		B7AE83112B1BB4A8001F3A97 /* CreateCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCategoryViewController.swift; sourceTree = "<group>"; };
+		B7AE83132B1BB8B0001F3A97 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +124,12 @@
 		B7741EFE2B197891003A7278 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				B7AE83112B1BB4A8001F3A97 /* CreateCategoryViewController.swift */,
 				B7741EFC2B19774B003A7278 /* RegisterViewController.swift */,
+				B7AE830F2B1BA366001F3A97 /* UserListViewController.swift */,
+				B7AE830D2B1B9EC9001F3A97 /* CatalogueViewController.swift */,
 				B7741EFA2B197735003A7278 /* LoginViewController.swift */,
+				B7AE83132B1BB8B0001F3A97 /* CategoryListViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -192,11 +204,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AE83142B1BB8B0001F3A97 /* CategoryListViewController.swift in Sources */,
 				B7741EE82B197477003A7278 /* ViewController.swift in Sources */,
 				B7741EE42B197477003A7278 /* AppDelegate.swift in Sources */,
 				0BE0C4742B1AEB95005E5F77 /* Product+CoreDataProperties.swift in Sources */,
 				B7AE83072B1B976F001F3A97 /* User+CoreDataClass.swift in Sources */,
 				0BE0C46F2B1AEB94005E5F77 /* Category+CoreDataClass.swift in Sources */,
+				B7AE83102B1BA366001F3A97 /* UserListViewController.swift in Sources */,
+				B7AE830E2B1B9EC9001F3A97 /* CatalogueViewController.swift in Sources */,
+				B7AE83122B1BB4A8001F3A97 /* CreateCategoryViewController.swift in Sources */,
 				B7AE830C2B1B9795001F3A97 /* BranchOffice+CoreDataProperties.swift in Sources */,
 				B7741EEE2B197478003A7278 /* DAMII.xcdatamodeld in Sources */,
 				B7741EFD2B19774B003A7278 /* RegisterViewController.swift in Sources */,
