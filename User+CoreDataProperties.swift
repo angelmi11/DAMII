@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.swift
 //  DAMII
 //
-//  Created by angel on 1/12/23.
+//  Created by DAMII on 2/12/23.
 //
 //
 
@@ -16,11 +16,11 @@ extension User {
         return NSFetchRequest<User>(entityName: "User")
     }
 
-    @NSManaged public var email: String?
-    @NSManaged public var id: UUID?
-    @NSManaged public var lastName: String?
     @NSManaged public var name: String?
+    @NSManaged public var lastName: String?
+    @NSManaged public var email: String?
     @NSManaged public var password: String?
+    @NSManaged public var id: UUID?
 
 }
 

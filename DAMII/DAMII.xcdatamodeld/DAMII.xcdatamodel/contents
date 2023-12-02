@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G1427" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="BranchOffice" representedClassName="BranchOffice" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String"/>
         <attribute name="email" optional="YES" attributeType="String"/>
@@ -36,4 +36,11 @@
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="phone" optional="YES" attributeType="String"/>
     </entity>
+    <elements>
+        <element name="BranchOffice" positionX="160" positionY="192" width="128" height="119"/>
+        <element name="Category" positionX="160" positionY="192" width="128" height="89"/>
+        <element name="Product" positionX="160" positionY="192" width="128" height="104"/>
+        <element name="Vendor" positionX="160" positionY="192" width="128" height="119"/>
+        <element name="User" positionX="171" positionY="234" width="128" height="104"/>
+    </elements>
 </model>
