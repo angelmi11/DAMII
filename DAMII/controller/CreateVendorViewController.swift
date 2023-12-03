@@ -55,10 +55,18 @@ class CreateVendorViewController: UIViewController {
         do {
             try managedContext.save()
             print("Proveedor creado exitosamente.")
+            navigateToVendorListViewController()
         } catch let error as NSError {
             print("Error al guardar el proveedor. \(error), \(error.userInfo)")
         }
     }
+    
+    func navigateToVendorListViewController() {
+        if let vendorListVC = storyboard?.instantiateViewController(withIdentifier: "listVendor") as? VendorListViewController {
+            navigationController?.pushViewController(vendorListVC, animated: true)
+        }
+    }
+
 
     func showAlert(message: String) {
         let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)

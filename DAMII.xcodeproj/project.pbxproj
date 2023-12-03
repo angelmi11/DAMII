@@ -34,6 +34,7 @@
 		B7AE83182B1BC4D0001F3A97 /* CreateVendorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83172B1BC4D0001F3A97 /* CreateVendorViewController.swift */; };
 		B7AE831A2B1BDD99001F3A97 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE83192B1BDD99001F3A97 /* ProductListViewController.swift */; };
 		B7AE831C2B1BDDAE001F3A97 /* CreateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AE831B2B1BDDAE001F3A97 /* CreateProductViewController.swift */; };
+		B7ECF9A52B1CCB2A007AE78C /* huella-patas.png in Resources */ = {isa = PBXBuildFile; fileRef = B7ECF9A42B1CCB29007AE78C /* huella-patas.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		B7AE83172B1BC4D0001F3A97 /* CreateVendorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVendorViewController.swift; sourceTree = "<group>"; };
 		B7AE83192B1BDD99001F3A97 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		B7AE831B2B1BDDAE001F3A97 /* CreateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductViewController.swift; sourceTree = "<group>"; };
+		B7ECF9A42B1CCB29007AE78C /* huella-patas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "huella-patas.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		B7741EE22B197477003A7278 /* DAMII */ = {
 			isa = PBXGroup;
 			children = (
+				B7ECF9A42B1CCB29007AE78C /* huella-patas.png */,
 				0B8C10B02B1A2B5B0056F27B /* coredata */,
 				B7741EFE2B197891003A7278 /* controller */,
 				B7741EE32B197477003A7278 /* AppDelegate.swift */,
@@ -203,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7ECF9A52B1CCB2A007AE78C /* huella-patas.png in Resources */,
 				B7741EF32B197484003A7278 /* LaunchScreen.storyboard in Resources */,
 				B7741EF02B197484003A7278 /* Assets.xcassets in Resources */,
 				B7741EEB2B197477003A7278 /* Main.storyboard in Resources */,

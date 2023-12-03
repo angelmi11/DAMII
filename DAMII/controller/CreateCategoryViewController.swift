@@ -42,8 +42,15 @@ class CreateCategoryViewController: UIViewController {
         do {
             try managedContext.save()
             print("Category created successfully.")
+            navigateToCategoryListViewController()
         } catch let error as NSError {
             print("Could not save. \(error), \(error.userInfo)")
+        }
+    }
+    
+    func navigateToCategoryListViewController() {
+        if let categoryListVC = storyboard?.instantiateViewController(withIdentifier: "listCategory") as? CategoryListViewController {
+            navigationController?.pushViewController(categoryListVC, animated: true)
         }
     }
 

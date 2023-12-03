@@ -37,11 +37,18 @@ class RegisterViewController: UIViewController {
         do {
             try managedContext.save()
             print("User created successfully.")
+            navigateToLoginViewController()
+            
         } catch let error as NSError {
             print("Could not save. \(error), \(error.userInfo)")
         }
     }
 
+    func navigateToLoginViewController() {
+        if let loginVC = storyboard?.instantiateViewController(withIdentifier: "loginForm") as? LoginViewController {
+            navigationController?.pushViewController(loginVC, animated: true)
+        }
+    }
 
     @IBAction func btnRegister(_ sender: Any) {
         createUser()
